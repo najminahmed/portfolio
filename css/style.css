@@ -55,14 +55,14 @@ footer{
 @-webkit-keyframes logo_wiggle{
   /*Your code here.*/
   from {width: 25px;}
-  to {width: 420px;}
+  to {width: 380px;}
 
 }
 
 @keyframes logo_wiggle{
   /*Your code here.*/
   from {width: 25px;}
-  to {width: 420px;}
+  to {width: 380px;}
 
 } 
 
@@ -78,10 +78,6 @@ footer{
  
 }
 
-.card_big{
-  -webkit-transform: initial;
-          transform: initial;
-}
 
 /* Gallery! */
 .gallery{
