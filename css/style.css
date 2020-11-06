@@ -135,7 +135,7 @@ header{
           text-decoration-style: wavy;
 }
 
-.nav .current{
+.nav_item .current{
 	background-color: red;
 }
 
