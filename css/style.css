@@ -135,8 +135,8 @@ header{
           text-decoration-style: wavy;
 }
 
-.nav_item .current{
-	background-color: red;
+.nav_links li a.current{
+  background-color:blue;
 }
 
 @media screen and (prefers-reduced-motion: reduce) { 
