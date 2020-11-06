@@ -148,6 +148,15 @@ header{
   text-decoration: underline;
 }
 
+.container{
+  /*Your Code Here*/
+  display: grid;
+  grid-row-gap: 20px;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  background-color: #99CCFF;
+}
+
 @media screen and (prefers-reduced-motion: reduce) { 
    #logo {
     -webkit-animation-duration: 0s; 
