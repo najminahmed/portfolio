@@ -55,6 +55,10 @@ footer{
   color: white;
   padding: 30px;
   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width:100%;
 }
 
 /*Begin your code here*/
