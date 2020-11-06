@@ -135,8 +135,9 @@ header{
           text-decoration-style: wavy;
 }
 
-.nav_item a.current{
-  background-color:blue;
+.active, .nav_item:hover {
+  background-color: #666;
+  color: blue;
 }
 
 @media screen and (prefers-reduced-motion: reduce) { 
