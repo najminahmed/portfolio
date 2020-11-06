@@ -126,6 +126,7 @@ header{
 .nav_item a{
   color: black;
   text-decoration: none;
+  padding: 5px 5px;
 }
 
 .nav_item a:hover, a:focus{
