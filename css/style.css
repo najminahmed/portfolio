@@ -21,6 +21,14 @@ p {
   padding: 0 30px;
 }
 
+#intro {background-color: #d5f4e6;
+	min-height: 150px;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px
+}
+
 a.skip{
   background: white;
   left: 0;
