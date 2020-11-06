@@ -136,8 +136,7 @@ header{
 }
 
 .active, .nav_item:hover {
-  background-color: #666;
-  color: blue;
+  background-color: #33FF99;
 }
 
 @media screen and (prefers-reduced-motion: reduce) { 
