@@ -126,8 +126,8 @@ header{
 .nav_item a:hover, a:focus{
   color: #7F00FF;
   text-decoration: underline;
-  -webkit-text-decoration-style: dotted;
-          text-decoration-style: dotted;
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
 }
 
 @media screen and (min-width: 850px){
