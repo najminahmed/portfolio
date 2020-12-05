@@ -1,8 +1,8 @@
 body{
-  font-family: 'Lora', sans-serif; /* Test for this*/
+  font-family: 'Lora', sans-serif;
   margin: 0;
   padding: 0;
-  font-size: 16pt; /* test for this! Make all sizes em or rem */
+  font-size: 16pt;
 }
 
 h1{
@@ -71,8 +71,6 @@ footer{
   width:100%;
 }
 
-/*Begin your code here*/
-/*Keyframes for animation*/
 
 @-webkit-keyframes bounceIn{
    0% {
@@ -103,7 +101,6 @@ footer{
 } 
 
 #logo{
-   /*Your code here.*/
   width: 250px;
   -webkit-animation-name: bounceIn;
   -webkit-animation-duration: 3s;
@@ -112,14 +109,11 @@ footer{
  
 }
 
-
-/* Gallery! */
 .gallery{
   min-height: 600px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /*Your code here again.*/
 }
 
 .gallery > img{
@@ -129,18 +123,15 @@ footer{
   align-self: center;
 }
 
-/* Navbar */
 header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*Your  code here again.*/
 }
 
 .nav_links{
-  /*Your code here again.*/
   display: flex;
   flex-direction: column;
 }
@@ -154,7 +145,7 @@ header{
   color: #7F00FF;
   text-decoration: underline;
   -webkit-text-decoration-style: wavy;
-          text-decoration-style: wavy;
+  text-decoration-style: wavy;
 }
 
 .active, .nav_item:hover {
@@ -163,7 +154,6 @@ header{
 }
 
 .container{
-  /*Your Code Here*/
   display: grid;
   grid-row-gap: 20px;
   grid-template-columns: auto auto;
@@ -177,11 +167,8 @@ header{
       }
 }
 @media screen and (min-width: 850px){
-
-  /* Cards! */
   .card {
     flex-basis: 225px;
-    /*Your  code here again.*/
   }
 
   .card_big{
@@ -189,19 +176,14 @@ header{
             transform: scaleX(1.12);
   }
 
-  /* Navbar */
   header{
-    /*Your code here again.*/ 
     justify-content: space-between;
     flex-direction: row;
-    
-    
   }
 
   .nav_links{
     justify-content: space-between;
     flex-direction: row;
-    /*Your code here again.*/  
   }
 
   .nav_item a{
@@ -220,13 +202,10 @@ header{
     display: none; }
   #gallery {
     display: none; }
-     
-  /*Your code here again.*/
-  /*You will want four selectors*/  
+      
 }
 
-/*Your code here again.*/ 
-/*Add media query to handle reduced-motion*/
+
 @media screen and (prefers-reduced-motion: reduce) { 
    #logo {
     width: 250px;
