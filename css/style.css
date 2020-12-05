@@ -106,9 +106,9 @@ footer{
    /*Your code here.*/
   width: 250px;
   -webkit-animation-name: bounceIn;
-  -webkit-animation-duration: 6s;
+  -webkit-animation-duration: 3s;
   animation-name: bounceIn;
-  animation-duration: 6s;
+  animation-duration: 3s;
  
 }
 
