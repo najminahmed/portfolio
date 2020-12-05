@@ -125,7 +125,7 @@ footer{
 
 .page_img {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: auto auto;
   grid-gap: 15px;
   align-items: stretch;
 }
@@ -169,7 +169,7 @@ header{
   display: grid;
   grid-row-gap: 20px;
   grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto;
   background-color: #99CCFF;
 }
 
