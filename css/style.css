@@ -201,7 +201,6 @@ header{
 .page_img {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 15px;
   align-items: stretch;
 }
 
