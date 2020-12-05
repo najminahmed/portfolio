@@ -123,6 +123,18 @@ footer{
   align-self: center;
 }
 
+.page_img {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 15px;
+  align-items: stretch;
+}
+
+.page_img img{
+  max-width: 100%;
+}
+	
+
 header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
