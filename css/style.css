@@ -124,9 +124,7 @@ footer{
 }
 
 .page_img {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  border: 7px #9999FF solid;
 }
 
 .page_img img{
