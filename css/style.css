@@ -172,8 +172,7 @@ header{
 
 @media screen and (prefers-reduced-motion: reduce) { 
    #logo {
-    -webkit-animation-duration: 0s; 
-     animation-duration: 0s;
+    width: 250px;
       }
 
 @media screen and (min-width: 850px){
