@@ -103,7 +103,7 @@ footer{
 
 #logo{
    /*Your code here.*/
-  width: 25px;
+  width: 200px;
   -webkit-animation-name: bounceIn;
   -webkit-animation-duration: 6s;
   animation-name: bounceIn;
