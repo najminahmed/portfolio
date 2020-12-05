@@ -124,10 +124,9 @@ footer{
 }
 
 .page_img {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 15px;
-  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .page_img img{
@@ -200,6 +199,17 @@ header{
   .nav_item a{
     padding: 10px;
   }
+	
+.page_img {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 15px;
+  align-items: stretch;
+}
+
+.page_img img{
+  max-width: 100%;
+}
 }
 
 @media print { 
