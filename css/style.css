@@ -126,14 +126,11 @@ footer{
 .page_img {
   display: grid;
   grid-template-columns: auto auto;
+  grid-template-rows: 400px;
   grid-gap: 15px;
   align-items: stretch;
 }
 
-.page_img img{
-  max-width: 100%;
-}
-	
 
 header{
   background: #fff;
