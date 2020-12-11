@@ -205,7 +205,6 @@ header{
 
   header{
     justify-content: space-between;
-    flex-direction: row;
   }
 
   .nav_links{
