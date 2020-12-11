@@ -209,7 +209,8 @@ header{
   }
 
   .nav_links{
-    display: inline;
+    align-items: left;
+    flex-direction: row;
   }
 
   .nav_item a{
