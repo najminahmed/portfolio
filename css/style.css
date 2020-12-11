@@ -175,14 +175,6 @@ header{
       }
 }
 @media screen and (min-width: 850px){
-  .card {
-    flex-basis: 225px;
-  }
-
-  .card_big{
-    -webkit-transform: scaleX(1.12);
-            transform: scaleX(1.12);
-  }
 
   header{
     justify-content: space-between;
@@ -192,6 +184,32 @@ header{
   .nav_links{
     justify-content: space-between;
     flex-direction: row;
+  }
+
+  .nav_item a{
+    padding: 10px;
+  }
+	
+.page_img {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: stretch;
+}
+
+.page_img img{
+  max-width: 100%;
+}
+}
+
+@media screen and (min-width: 600px){
+
+  header{
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .nav_links{
+    display: inline;
   }
 
   .nav_item a{
